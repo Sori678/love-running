@@ -96,7 +96,7 @@ footer {
     background-color: orange;
 }
 
-/* Media query: tablets and larger (768x and up) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
 
@@ -128,7 +128,15 @@ margin: 0 0.5rem;
 
 /* Main content */
 main {
-    /* Push main content down to a accomodate large header */
+    /* Push main content down to acommodate larger header */
     margin-top: 79px;
 }
 }
+
+/* Large divices (Laptops and desktops, 992px and up */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
+ 
