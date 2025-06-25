@@ -345,7 +345,7 @@ main {
 
 /* Gallery */
 #photos {
-    column-gap: 3;
+    column-count: 3 ;
     
 }
 }
@@ -389,11 +389,11 @@ main {
         align-self: flex-end;
     }
 
-@media  screen and (min-widt: 1200px) {
+@media  screen and (min-width: 1200px) {
     /* Reasons section */
     #benefits {
         display: flex;
-        flex-direction: none;
+        flex-direction: row;
     }
     #benefits > div {
         flex: 1;
