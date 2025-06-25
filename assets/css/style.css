@@ -274,7 +274,7 @@ main {
         width: fit-content;
         padding-right: 1rem;
     }
-
+    
     #menu {
         display: flex;
     }
@@ -291,6 +291,26 @@ main {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+    /* Signup form */
+
+    #signup {
+    background-position: center;
+    position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 
     /* Main content */
@@ -368,7 +388,7 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
-}
+
 @media  screen and (min-widt: 1200px) {
     /* Reasons section */
     #benefits {
@@ -390,4 +410,5 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
+}
 }
